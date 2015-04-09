@@ -12,27 +12,21 @@
 
 module.exports = {
 
-  /***************************************************************************
-   * Set the default database connection for models in the production        *
-   * environment (see config/connections.js and config/models.js )           *
-   ***************************************************************************/
+  port: 4321,
 
-  // models: {
-  //   connection: 'someMysqlServer'
-  // },
+  log: {
+    //level: 'silent'
+    level: 'debug',
+    logToFile: true
+  },
 
-  /***************************************************************************
-   * Set the port in the production environment to 80                        *
-   ***************************************************************************/
+  administratorEmail: 'will@williamyoumans.com',
+  supportEmail: 'info@williamyoumans.com',
 
-  // port: 80,
+  blueprints: {
+    shortcuts: false // important!!! must be false on production for security
+  },
 
-  /***************************************************************************
-   * Set the log level in production environment to "silent"                 *
-   ***************************************************************************/
-
-  // log: {
-  //   level: "silent"
-  // }
-
+  hostName: 'http://doorofclubs.williamyoumans.com'
+  // hostName: 'http://www.doorofclubs.com'
 };

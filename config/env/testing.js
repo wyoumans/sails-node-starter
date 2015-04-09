@@ -12,9 +12,16 @@
 
 module.exports = {
 
-  // emails
-  administratorEmail: 'will@williamyoumans.com',
-  supportEmail: 'info@williamyoumans.com',
-  hostName: 'http://localhost:1337'
+  port: 1337,
 
+  // Emails
+  administratorEmail: 'nope@williamyoumans.com',
+  supportEmail: 'nope@williamyoumans.com',
+
+  // Database connection
+  models: {
+    connection: 'mongoDbTesting'
+  },
+
+  hostName: 'http://localhost:1337'
 };
