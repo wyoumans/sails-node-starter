@@ -2,10 +2,10 @@
 
 if [ $NODE_ENV == testing ];then
   echo "clearing test db"
-  mongo door_of_clubs_testing --eval "db.dropDatabase()";
+  mongo node_starter_testing --eval "db.dropDatabase()";
 
 elif [ $NODE_ENV == development ];then
   echo "clearing development db"
-  mongo door_of_clubs --eval "db.dropDatabase()";
+  mongo node_starter --eval "db.dropDatabase()";
 
 fi

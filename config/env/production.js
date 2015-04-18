@@ -27,6 +27,5 @@ module.exports = {
     shortcuts: false // important!!! must be false on production for security
   },
 
-  hostName: 'http://doorofclubs.williamyoumans.com'
-  // hostName: 'http://www.doorofclubs.com'
+  hostName: 'http://node-starter.williamyoumans.com'
 };

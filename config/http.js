@@ -55,7 +55,7 @@ module.exports.http = {
      ****************************************************************************/
 
     viewDefaults: function(req, res, next) {
-      res.locals.projectTitle = 'Door of Clubs';
+      res.locals.projectTitle = 'Will\'s Node.js Starter';
       res.locals.showPageHeader = true;
       res.locals.showNavigation = true;
       res.locals.showNavigationSearch = true;

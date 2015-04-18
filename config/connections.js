@@ -29,7 +29,7 @@ module.exports.connections = {
     adapter: 'sails-mongo',
     host: 'localhost',
     port: 27017,
-    database: 'door_of_clubs',
+    database: 'node_starter',
     schema: true
   },
 
@@ -37,13 +37,13 @@ module.exports.connections = {
     adapter: 'sails-mongo',
     host: 'localhost',
     port: 27017,
-    database: 'door_of_clubs_testing',
+    database: 'node_starter_testing',
     schema: true
   },
 
   mandrillSMTP: {
     adapter: 'sails-mandrill',
-    apiKey: 'HZk_uTEJFHhaYl3mij0HEw',
+    apiKey: 'XXXXXXXXXXXXXXXXXXXXXX',
     from: {
       name: 'One Review',
       email: 'no-reply@williamyoumans.com'
